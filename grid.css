@@ -1,0 +1,10 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.cont-productos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    margin-left: 20px;
+}
