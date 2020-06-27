@@ -105,6 +105,10 @@ h1{
     background-color: white;
     border-radius: 20px;
     border: solid 0.5px rgba(0, 64, 128, 0.5);
+    transition: all 1s;
+}
+.contenedor:hover{
+    transform: scale(1.1);
 }
     .contenedor img{
         width: 300px;
