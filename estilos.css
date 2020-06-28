@@ -147,6 +147,11 @@ h1{
         .file1{
             flex: 1;
         }
+            .file1 img{
+                max-width: 300px;
+                width: 100%;
+                padding: 10px 0;
+            }
         .file2{
             flex: 1;
         }
@@ -157,6 +162,13 @@ h1{
                 justify-content: center;
                 text-decoration: none;
                 margin: 10px 0;
+                font-size: 40px;
+            }
+            .icon-facebook:hover{
+                color: #106bba;
+            }
+            .icon-instagram:hover{
+                color: #dd1986;
             }
         .file3{
             flex: 1;
