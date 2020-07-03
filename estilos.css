@@ -92,7 +92,7 @@ h1{
     justify-content: center;
     font-size: 40px;
     margin-bottom: 100px;
-    background: url(imag/prueba2.jpg);
+    background: url(imag/patrones.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -104,11 +104,12 @@ h1{
     height: 500px;
     background-color: white;
     border-radius: 20px;
-    border: solid 0.5px rgba(0, 64, 128, 0.5);
+    border: solid 0.2px rgba(0, 64, 128, 0.5);
     transition: all 0.5s;
 }
 .contenedor:hover{
     transform: scale(1.04);
+    box-shadow: 10px 10px 7px 5px grey;
 }
     .contenedor img{
         max-width: 300px;
