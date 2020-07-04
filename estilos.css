@@ -25,6 +25,9 @@ body{
     margin-right: 60px;
     color: grey;
 }
+    .icon-carrito:hover{
+        cursor: pointer;
+    }
 .menu{
     background: #368bc4;
     height: 35px;
