@@ -89,6 +89,7 @@ h1{
 .cont-prod{
     margin-top: 50px;
     margin-bottom: 50px;
+    
 }
 .title-prod{
     display: flex ;
@@ -103,8 +104,7 @@ h1{
     color: white;
 }
 .contenedor{
-    width: 400px;
-    height: 500px;
+
     background-color: white;
     border-radius: 20px;
     border: solid 0.2px rgba(0, 64, 128, 0.5);
@@ -115,7 +115,7 @@ h1{
     box-shadow: 10px 10px 7px 5px grey;
 }
     .contenedor img{
-        max-width: 300px;
+        max-width: 200px;
         width: 100%;
         margin: 0px 50px;
     }
