@@ -42,6 +42,11 @@ body{
         align-items: center;
         justify-content: center;
     }
+    .icon-catalogo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .icon-edit{
         display: flex;
         align-items: center;
