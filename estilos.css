@@ -28,6 +28,21 @@ body{
     .icon-carrito:hover{
         cursor: pointer;
     }
+input{
+    display: none;
+}
+label{
+    display: none;
+    position: relative;
+    font-size: 30px;
+    margin: 0 auto;
+    right: 10px;
+    padding: 0 20px;
+}
+    label:hover{
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.3);
+    }
 .menu{
     background: #368bc4;
     height: 35px;
@@ -192,4 +207,15 @@ h1{
     margin-top: 5%;
     display: flex;
     justify-content: center;
+}
+
+/*-------------RESPONSIVE DESING--------------*/
+
+@media screen and (max-width: 950px){
+    label{
+        display: inline-block;
+    }
+    .menu{
+        display: initial;
+    }
 }
