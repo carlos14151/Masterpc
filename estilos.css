@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 header{
     background: white;
     display: flex;
@@ -47,7 +50,7 @@ label{
     }
 .menu{
     background: #368bc4;
-    height: 35px;
+    height: 45px;
 }
 .menu a{
     color: white;
