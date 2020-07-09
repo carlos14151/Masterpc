@@ -28,6 +28,9 @@ body{
     .icon-carrito:hover{
         cursor: pointer;
     }
+.ant-menu{
+    background: #368bc4;
+}
 input{
     display: none;
 }
@@ -35,13 +38,12 @@ label{
     display: none;
     position: relative;
     font-size: 30px;
-    margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 15px;
     float: right;
 }
     label:hover{
         cursor: pointer;
-        background: rgba(0, 0, 0, 0.3);
+        background: rgba(0, 0, 0, 0.2);
     }
 .menu{
     background: #368bc4;
@@ -215,14 +217,18 @@ h1{
     label{
         display: inline-block;
     }
+    .ant-menu{
+        display: flex;
+        justify-content: flex-end;
+    }
     .menu{
-        height: 100vh;
+        height: auto;
         position: absolute;
-        width: 70%;
+        width: 100%;
         background: rgba(54, 139, 196, 0.5);
-        top: 120px;
+        top: 115px;
         transition: all 1s;
-        transform: translateX(-100%);
+        transform: translateX(+100%);
     }
         .menu a{
             padding: 20px 20px;
