@@ -227,14 +227,14 @@ h1{
         height: auto;
         position: absolute;
         width: 100%;
-        background: rgba(54, 139, 196, 0.5);
+        background: rgba(54, 139, 196, 0.7);
         top: 115px;
         transition: all 1s;
-        transform: translateX(+100%);
+        transform: translateX(-100%);
     }
         .menu a{
             padding: 20px 20px;
-            justify-content: end;
+            justify-content: start;
             border-bottom: 1px solid white;
         }
             .menu a:hover{
