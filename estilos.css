@@ -177,14 +177,22 @@ h1{
     }
         .file1{
             flex: 1;
+            min-width: 350px;
+            margin-bottom: 30px;
         }
             .file1 img{
+                display: flex;
                 max-width: 300px;
-                width: 100%;
                 padding: 10px 0;
+                margin: 0 auto;
+            }
+            .file1 p{
+                text-align: justify;
             }
         .file2{
             flex: 1;
+            min-width: 350px;
+            margin-bottom: 30px;
         }
             .file2 a{
                 display: table;
@@ -204,6 +212,7 @@ h1{
             }
         .file3{
             flex: 1;
+            min-width: 350px;
         }
             .file3 p{
                 padding: 10px 0;
@@ -250,4 +259,11 @@ h1{
         background-size: initial;
         object-fit: cover;
     }
+    .file3 p{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 721px){
+    
 }
