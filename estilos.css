@@ -50,12 +50,13 @@ label{
     }
 .menu{
     background: #368bc4;
-    height: 45px;
+    height: 35px;
 }
 .menu a{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    transition: all 0.5s;
 }
     .icon-home{
         display: flex;
@@ -193,6 +194,7 @@ h1{
                 text-decoration: none;
                 margin: 10px auto;
                 font-size: 40px;
+                transition: all 0.4s;
             }
             .icon-facebook:hover{
                 color: #106bba;
@@ -243,5 +245,9 @@ h1{
             }
     #btn-menu:checked ~ .menu{
         transform: translateX(0%);
+    }
+    .cont-prod h2{
+        background-size: initial;
+        object-fit: cover;
     }
 }
