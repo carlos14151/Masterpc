@@ -295,7 +295,19 @@ h1{
     .menu{
         top: 185px;
     }
-    .file1 img{
-        width: 100%;
+    .cont-prod h2{
+        font-size: 6vw;
+    }
+    .file1{
+        min-width: 250px;
+    }
+        .file1 img{
+            width: 100%;
+        }
+    .file2{
+        min-width: 250px;
+    }
+    .file3{
+        min-width: 250px;
     }
 }
