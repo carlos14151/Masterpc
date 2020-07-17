@@ -206,9 +206,11 @@ h1{
             }
             .icon-facebook:hover{
                 color: #106bba;
+                transform: translateY(-15px);
             }
             .icon-instagram:hover{
                 color: #dd1986;
+                transform: translateY(-15px);
             }
         .file3{
             flex: 1;
