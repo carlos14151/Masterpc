@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+body{
+    background: #f4f4f4;
+}
+.img-header{
+    width: 250px;
+    margin-left: 40px;
+}
+.icon-carrito{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 60px;
+    color: grey;
+}
+    .icon-carrito:hover{
+        cursor: pointer;
+    }
+.ant-menu{
+    background: #368bc4;
+}
+input{
+    display: none;
+}
+label{
+    display: none;
+    position: relative;
+    font-size: 30px;
+    padding: 0 15px;
+    float: right;
+}
+    label:hover{
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.2);
+    }
+.menu{
+    background: #368bc4;
+    height: 35px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+    .icon-home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-catalogo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-edit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-nosotros{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-user{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-admin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.menu a:hover{
+    background: #e8eced;
+    border-radius: 80px;
+    color: #368bc4;
+}
+/* ------------------Banner----------------- */
+
+.box-banner{
+    display: flex;
+    align-items: center;
+    background-image: url(../imag/banner-2.jpg);
+    background-position: center;
+    background-size: cover;   
+    width: 100%;
+    height: 800px;
+}
+h1{
+    margin-top: -25%;
+    width: 35%;
+    margin-left: 70px;
+}
+
+/* ---------------producots------------------*/
+
+.cont-prod{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.title-prod{
+    display: flex ;
+    justify-content: center;
+    font-size: 40px;
+    background: url(imag/patrones.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 40px;
+    color: white;
+}
+.contenedor{
+
+    background-color: white;
+    border-radius: 20px;
+    border: solid 0.2px rgba(0, 64, 128, 0.5);
+    transition: all 0.5s;
+}
+.contenedor:hover{
+    transform: scale(1.04);
+    box-shadow: 10px 10px 7px 5px grey;
+}
+    .contenedor img{
+        max-width: 300px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor h3{
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        margin-bottom: 10px;
+        font-size: 1.7em;
+    }
+    .contenedor p{
+        padding: 15px;
+        font-size: 1em;
+    }
+    /*---------------------- footer ---------------*/
+    .footer{
+        background-color: #0c3d68;
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        color: white;
+    }
+    .cont-footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cont-footer h3{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+        .file1{
+            flex: 1;
+            min-width: 350px;
+            margin-bottom: 30px;
+        }
+            .file1 img{
+                display: flex;
+                max-width: 300px;
+                padding: 10px 0;
+                margin: 0 auto;
+            }
+            .file1 p{
+                text-align: justify;
+            }
+        .file2{
+            flex: 1;
+            min-width: 350px;
+            margin-bottom: 30px;
+        }
+            .file2 a{
+                display: table;
+                padding: 10px;
+                color: white;
+                justify-content: center;
+                text-decoration: none;
+                margin: 10px auto;
+                font-size: 40px;
+                transition: all 0.4s;
+            }
+            .icon-facebook:hover{
+                color: #106bba;
+                transform: translateY(-15px);
+            }
+            .icon-instagram:hover{
+                color: #dd1986;
+                transform: translateY(-15px);
+            }
+        .file3{
+            flex: 1;
+            min-width: 350px;
+        }
+            .file3 p{
+                padding: 10px 0;
+                margin: 10px 0;
+            }
+.derechos{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------RESPONSIVE DESING--------------*/
+@media screen and (max-width: 1040px){
+    .file3 p{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 950px){
+    label{
+        display: inline-block;
+    }
+    .ant-menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menu{
+        height: auto;
+        position: absolute;
+        width: 100%;
+        background: rgba(54, 139, 196, 0.7);
+        top: 115px;
+        transition: all 1s;
+        transform: translateX(-100%);
+    }
+        .menu a{
+            padding: 20px 20px;
+            justify-content: start;
+            border-bottom: 1px solid white;
+        }
+            .menu a:hover{
+                border-radius: initial;
+                background: rgba(232, 236, 237 ,0.5);
+            }
+    #btn-menu:checked ~ .menu{
+        transform: translateX(0%);
+    }
+    .cont-prod h2{
+        background-size: initial;
+        object-fit: cover;
+    }
+    .file3 p{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 750px){
+    .box-banner{
+        height: 550px;
+    }
+        .box-banner h1{
+            margin-top: -40%;
+        }
+}
+@media screen and (max-width: 550px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        height: 150px;
+    }
+        .header img{
+            margin: 0px;
+            width: 85%;
+        }
+        .icon-carrito{
+            margin: 0;
+            justify-content: center;
+        }
+    .menu{
+        top: 185px;
+    }
+    .cont-prod h2{
+        font-size: 6vw;
+    }
+    .file1{
+        min-width: 250px;
+    }
+        .file1 img{
+            width: 100%;
+        }
+    .file2{
+        min-width: 250px;
+    }
+    .file3{
+        min-width: 250px;
+    }
+}
