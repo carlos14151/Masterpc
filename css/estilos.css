@@ -297,12 +297,18 @@ h1{
     .menu{
         top: 185px;
     }
+    .contenedor h3{
+        font-size: 7vw;
+    }
     .cont-prod h2{
         font-size: 6vw;
     }
     .file1{
         min-width: 250px;
     }
+        .file1 p {
+            font-size: 3vw;
+        }
         .file1 img{
             width: 100%;
         }
@@ -311,5 +317,22 @@ h1{
     }
     .file3{
         min-width: 250px;
+    }
+        .file3 p{
+            font-size: 3vw;
+        }
+    .derechos p, span{
+        font-size: 3vw;
+    }
+}   
+@media screen and (max-width: 350px){
+    .box-banner{
+        height: 400px;
+    }
+
+    .box-banner h1{
+        font-size: 5vw;
+        width: 45%;
+        margin-top: -75%;
     }
 }
