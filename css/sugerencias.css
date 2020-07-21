@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #f4f4f4;
+}
+header{
+    background: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
+.img-header{
+    width: 250px;
+    margin-left: 40px;
+}
+.icon-carrito{
+    display: flex;
+    font-size: 30px;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 60px;
+    color: grey;
+}
+    .icon-carrito:hover{
+        cursor: pointer;
+    }
+    .ant-menu{
+        background: #368bc4;
+    }
+    input{
+        display: none;
+    }
+label{
+    display: none;
+    position: relative;
+    font-size: 30px;
+    padding: 0 15px;
+    float: right;
+}
+    label:hover{
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.2);
+    }
+.menu{
+    background: #368bc4;
+    height: 35px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+    .menu a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        transition: all 0.5s;
+    }
+    .icon-home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-catalogo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-edit{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-nosotros{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-user{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon-admin{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+.menu a:hover{
+    background: #e8eced;
+    border-radius: 80px;
+    color: #368bc4;
+}
+
+/* FORMULARIO*/
+    .name{
+        display: block;
+    }
+    .name2{
+        display: block;
+    }
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1040px){
+    .file3 p{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 950px){
+    label{
+        display: inline-block;
+    }
+    .ant-menu{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menu{
+        height: auto;
+        position: absolute;
+        width: 100%;
+        background: rgba(54, 139, 196, 0.7);
+        top: 115px;
+        transition: all 1s;
+        transform: translateX(-100%);
+        display: flex;
+        flex-direction: column;
+    }
+        .menu a{
+            padding: 20px 20px;
+            justify-content: start;
+            border-bottom: 1px solid white;
+        }
+            .menu a:hover{
+                border-radius: initial;
+                background: rgba(232, 236, 237 ,0.5);
+            }
+    #btn-menu:checked ~ .menu{
+        transform: translateX(0%);
+    }
+}
