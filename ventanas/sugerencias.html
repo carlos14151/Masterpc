@@ -18,7 +18,7 @@
             <input type="checkbox" id="btn-menu">
             <label for="btn-menu" class="icon-menu"></label>
             <nav class="menu">
-                <a class="icon-home" href="">Home</a>
+                <a class="icon-home" href="../index.html">Home</a>
                 <a class="icon-catalogo" href="">Catalogo</a>
                 <a class="icon-edit" href="">Sugerencias</a>
                 <a class="icon-nosotros" href="">Nosotros</a>
@@ -29,9 +29,25 @@
     </div>
     <section class="formulario">
         <form class="frm-doc">
-            <input class="name" type="text">
-            <label class="name2" for="">username</label>
+            <h2>Ingrezar Datos</h3>
+            <div class="grupo">
+                <h3>Nombre</h3>
+                <input type="text" id="name" required><span class="barra"></span>
+            </div>
+            <div class="grupo">
+                <h3>Email</h3>
+                <input type="email" id="name" required><span class="barra"></span>
+            </div>
+            <div class="grupo">
+                <h3>Fecha</h3>
+                <input type="date" id="name" required><span class="barra"></span>
+            </div>
+            <div class="grupo">
+                <h3>Mensaje</h3>
+                <input type="text" id="mss" required><span class="mss"></span>
+            </div>
         </form>
+        <button type="submit">Enviar</button>
     </section>
 </body>
 </html>
